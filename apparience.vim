@@ -11,10 +11,11 @@ set showmatch
 set showbreak=↪\
 set listchars=tab:│·
 match ErrorMsg '\s\+$'
-set listchars+=trail:¸
+"set listchars+=trail:¸
 "set listchars+=eol:$
 set listchars+=nbsp:_
 set listchars+=extends:›
 set listchars+=precedes:‹
 set list
 
+source ~/.vim/statusline.vim

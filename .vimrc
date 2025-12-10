@@ -31,6 +31,7 @@ set shiftwidth=4
 set expandtab
 
 "MAPPINGS
+nmap <F9> :call system('xclip -selection clipboard', @0)<CR>
 
 "CMDS
 autocmd InsertEnter * :set norelativenumber
